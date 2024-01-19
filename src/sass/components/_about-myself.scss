@@ -19,20 +19,6 @@
     font-weight: 700;
     text-shadow: 1px 1px 3px grey, 1px 1px 1px red;
   }
-
-  // &::after {
-  //   display: inline-block;
-  //   content: '';
-  //   width: 70%;
-  //   height: 30px;
-  //   outline: 1px solid black;
-  //   border-radius: 5px;
-  //   background-color: var(--bg-sidebar);
-  //   background-image: url('../images/photo-2.jpg');
-  //   background-repeat: no-repeat;
-  //   background-position: center;
-  //   background-size: cover;
-  // }
 }
 .title-name {
   margin-bottom: 18px;
@@ -40,11 +26,6 @@
   font-weight: 700;
 
   text-shadow: 4px 4px 5px grey, 2px 2px 1px red;
-}
-
-.personal-information {
-  border-top: 1px solid var(--marker-list-color);
-  border-bottom: 1px solid var(--marker-list-color);
 }
 
 .list-information {

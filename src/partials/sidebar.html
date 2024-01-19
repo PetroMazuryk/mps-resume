@@ -5,59 +5,66 @@
         <img class="sidebar__photo" src="./images/my-photo.png" alt="My photo" />
       </div>
     </div>
-    <div>
-      <h1 class="contacts__title">Contacts Information</h1>
-      <a
-        class="contacts__address"
-        target="_blank"
-        href="https://www.google.com/maps/d/viewer?mid=1EkwX7Fk-zHgwIFlXdLFx8MTz66s&hl=uk&ll=49.841722439688425%2C24.026302999999974&z=12"
-      >
-        <svg class="icon icon__address">
-          <use href="./images/sprite.svg#icon-home"></use>
-        </svg>
-        <span class="sider-text">Address: Lviv, Ukraine</span>
-      </a>
-      <ul class="general-ul contacts__container">
-        <li class="item-contacts tooltip">
-          <a class="sider-a" href="tel:0502124965">
-            <svg class="icon icon-phone">
+
+    <!-- contacts -->
+    <div class="contacts__container">
+      <h2 class="contacts__title">Contacts</h2>
+      <ul class="contacts__list">
+        <li class="contact__list">
+          <a class="contact__link" href="tel:+380502124965" target="_blank">
+            <svg class="icon__phone" width="16" height="16">
               <use href="./images/sprite.svg#phone"></use>
             </svg>
-            <span class="tooltiptext">050 212 49 65</span>
+          </a>
+          +380 50 212 49 65
+        </li>
+
+        <li class="contact__list">
+          <a class="contact__link" href="mailto:mpmazurik@gmail.com" target="_blank">
+            <svg class="icon__email" width="16" height="16">
+              <use href="./images/sprite.svg#email"></use>
+            </svg>
+          </a>
+          mpmazurik@gmail.com
+        </li>
+
+        <li class="contact__list">
+          <a class="contact__link" href="https://web.telegram.org/k/" target="_blank">
+            <svg class="icon__telegram" width="16" height="16">
+              <use href="./images/sprite.svg#icon-telegram" target="_blank"></use>
+            </svg>
+            Telegram
           </a>
         </li>
 
-        <li class="item-contacts tooltip">
-          <a class="sider-a" href="mailto:mpmazurik@gmail.com">
-            <svg class="icon icon-email">
-              <use href="./images/sprite.svg#email"></use>
-            </svg>
-            <span class="tooltiptext">mpmazurik@gmail.com</span>
-          </a>
-        </li>
-        <li class="item-contacts tooltip">
-          <a class="sider-a" href="https://web.telegram.org/k/" target="_blank">
-            <svg class="icon icon-skype">
-              <use href="./images/sprite.svg#icon-telegram"></use>
-            </svg>
-            <span class="tooltiptext">@Petro_Mazuryk</span>
-          </a>
-        </li>
-        <li class="item-contacts tooltip">
-          <a class="sider-a" href="https://www.linkedin.com/in/petro-mazuryk-8a6371265/" target="_blank">
-            <svg class="icon icon-linkedin">
+        <li class="contact__list">
+          <a class="contact__link" href="https://www.linkedin.com/in/petro-mazuryk-8a6371265/" target="_blank">
+            <svg class="icon__linkedin" width="16" height="16">
               <use href="./images/sprite.svg#linkedin"></use>
             </svg>
-            <span class="tooltiptext">Profile linkedin</span>
+            Linkedin
           </a>
         </li>
-        <li class="item-contacts tooltip">
-          <a class="sider-a" href="https://github.com/PetroMazuryk" target="_blank">
-            <svg class="icon icon-github">
+
+        <li class="contact__list">
+          <a class="contact__link" href="https://github.com/PetroMazuryk" target="_blank">
+            <svg class="icon__github" width="16" height="16">
               <use href="./images/sprite.svg#github"></use>
             </svg>
-            <span class="tooltiptext">Github</span>
+            GitHub
           </a>
+        </li>
+        <li class="contact__list">
+          <a
+            class="contact__link"
+            target="_blank"
+            href="https://www.google.com/maps/d/viewer?mid=1EkwX7Fk-zHgwIFlXdLFx8MTz66s&hl=uk&ll=49.841722439688425%2C24.026302999999974&z=12"
+          >
+            <svg class="icon__address" width="16" height="16">
+              <use href="./images/sprite.svg#icon-home"></use>
+            </svg>
+          </a>
+          Lviv, Ukraine
         </li>
       </ul>
     </div>
@@ -67,7 +74,7 @@
       <ul>
         <li class="sider-list"><span class="sider-text">HTML5</span></li>
         <li class="sider-list">
-          <span class="sider-text">CSS3 SASS/SCSS</span>
+          <span class="sider-text">CSS3 / SASS / SCSS</span>
         </li>
         <li class="sider-list">
           <span class="sider-text">JavaScript</span>
@@ -83,12 +90,6 @@
         <li class="sider-list"><span class="sider-text">GIT</span></li>
         <li class="sider-list">
           <span class="sider-text">Rest API</span>
-        </li>
-        <li class="sider-list">
-          <span class="sider-text">Test Cases, Bug reports</span>
-        </li>
-        <li class="sider-list">
-          <span class="sider-text">Agile, Scrum</span>
         </li>
       </ul>
     </div>
@@ -110,30 +111,16 @@
     </div>
 
     <div class="skills__container">
-      <h3 class="skills__title">Interests</h3>
+      <h3 class="skills__title">Languages</h3>
       <ul>
         <li class="sider-list">
-          <span class="sider-text">Innovative technologies</span>
+          <span class="sider-text">English - Intermediate </span>
         </li>
         <li class="sider-list">
-          <span class="sider-text">Self development</span>
+          <span class="sider-text">Ukrainian - Native </span>
         </li>
         <li class="sider-list">
-          <span class="sider-text">Cycling</span>
-        </li>
-      </ul>
-    </div>
-    <div class="skills__container">
-      <h3 class="skills__title">Language skills</h3>
-      <ul>
-        <li class="sider-list">
-          <span class="sider-text">English: Intermediate </span>
-        </li>
-        <li class="sider-list">
-          <span class="sider-text">Ukrainian: Native </span>
-        </li>
-        <li class="sider-list">
-          <span class="sider-text">Russian: Advanced </span>
+          <span class="sider-text">Russian - Advanced </span>
         </li>
       </ul>
     </div>
