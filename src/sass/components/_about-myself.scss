@@ -20,19 +20,19 @@
     text-shadow: 1px 1px 3px grey, 1px 1px 1px red;
   }
 
-  &::after {
-    display: inline-block;
-    content: '';
-    width: 70%;
-    height: 30px;
-    outline: 1px solid black;
-    border-radius: 5px;
-    background-color: var(--bg-sidebar);
-    background-image: url('../images/photo-2.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
+  // &::after {
+  //   display: inline-block;
+  //   content: '';
+  //   width: 70%;
+  //   height: 30px;
+  //   outline: 1px solid black;
+  //   border-radius: 5px;
+  //   background-color: var(--bg-sidebar);
+  //   background-image: url('../images/photo-2.jpg');
+  //   background-repeat: no-repeat;
+  //   background-position: center;
+  //   background-size: cover;
+  // }
 }
 .title-name {
   margin-bottom: 18px;
