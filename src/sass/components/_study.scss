@@ -1,25 +1,22 @@
 .study-container {
   .working-hours {
-    font-size: 14;
-    margin-bottom: 16px;
+    font-size: 14px;
+    margin-bottom: 10px;
   }
 }
 
 .title-institution {
-  color: var(--block-info-text-color);
-
-  margin-bottom: 12px;
-
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(---black-color);
+  margin-bottom: 8px;
 }
 
 .study-profession {
-  margin-top: 0;
-  margin-bottom: 12px;
-  color: var(--date-info-color);
   font-size: 14px;
-  font-weight: 700;
-  line-height: 1.7;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(---black-color);
+  margin-bottom: 8px;
 }

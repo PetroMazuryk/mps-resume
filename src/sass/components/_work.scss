@@ -1,32 +1,32 @@
 .work-container {
-  padding-bottom: 20px;
+  padding-bottom: 16px;
 }
 
 .subtitle-work {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.5;
   margin-top: 0;
 }
 .subtitle-profession {
-  color: var(--block-info-text-color);
+  color: var(---black-color);
 }
 .working-hours {
   margin-top: 0;
 
-  color: var(--date-info-color);
+  color: var(--black-color);
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 2;
 }
 .delimiter {
   color: var(--black-color);
 }
 .work-list {
-  color: var(--block-info-text-color);
+  color: var(--black-color);
   font-family: Montserrat;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 24px;
   list-style: none;
 }
