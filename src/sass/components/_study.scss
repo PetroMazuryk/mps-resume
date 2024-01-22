@@ -1,22 +1,17 @@
 .study-container {
   .working-hours {
-    font-size: 14px;
+    @include font;
     margin-bottom: 10px;
   }
 }
 
 .title-institution {
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.4;
+  @include font($fs: 16px);
   color: var(---black-color);
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .study-profession {
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.4;
+  @include font;
   color: var(---black-color);
-  margin-bottom: 8px;
 }

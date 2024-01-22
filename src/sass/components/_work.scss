@@ -3,21 +3,15 @@
 }
 
 .subtitle-work {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1.5;
-  margin-top: 0;
+  @include font($fs: 16px);
+  margin-bottom: 4px;
 }
 .subtitle-profession {
   color: var(---black-color);
 }
 .working-hours {
-  margin-top: 0;
-
+  @include font;
   color: var(--black-color);
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 2;
 }
 .delimiter {
   color: var(--black-color);
@@ -25,8 +19,6 @@
 .work-list {
   color: var(--black-color);
   font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 24px;
+  @include font;
   list-style: none;
 }

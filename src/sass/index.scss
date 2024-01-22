@@ -1,5 +1,7 @@
-@import './common';
-@import './viriables';
+@import './utils/common';
+@import './utils/viriables';
+@import './utils/mixins';
+
 @import './components/sidebar';
 @import './components/about-myself';
 @import './components/project-box';

@@ -35,11 +35,11 @@
 }
 
 .skills__title {
-  margin-bottom: 18px;
-  color: var(--white-color);
   font-size: 22px;
   font-weight: 700;
   line-height: 1.09;
+  margin-bottom: 18px;
+  color: var(--white-color);
 }
 
 .skills__container {
@@ -63,7 +63,7 @@
 .contacts__title {
   font-size: 22px;
   color: white;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
 }
 
 .contact__list {
@@ -74,9 +74,7 @@
 .contact__link {
   display: block;
   color: var(--white-color);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
+  @include font;
   fill: white;
   margin-right: 10px;
 
@@ -163,9 +161,7 @@
 .sider-list {
   color: var(--white-color);
   margin-left: 15px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.6;
+  @include font;
 }
 
 .sider-text {
