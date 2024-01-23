@@ -20,5 +20,6 @@
   color: var(--black-color);
   font-family: Montserrat;
   @include font;
-  list-style: none;
+  margin-left: 20px;
+  // list-style: none;
 }

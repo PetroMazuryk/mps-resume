@@ -3,23 +3,17 @@
 }
 
 .title-name {
-  font-size: 47px;
-  font-weight: 700;
-  line-height: 1.6;
+  @include font(47px);
   // text-shadow: 4px 4px 5px grey, 2px 2px 1px red;
 }
 
 .title-work {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1.6;
-  // margin-bottom: 8px;
+  @include font(24px);
+  // margin-b)ottom: 8px;
 }
 
 .title {
-  font-size: 22px;
-  font-weight: 600;
-  line-height: 1.6;
+  @include font(22px);
   // margin-bottom: 8px;
 }
 

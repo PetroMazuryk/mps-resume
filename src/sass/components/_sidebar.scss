@@ -35,9 +35,7 @@
 }
 
 .skills__title {
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 1.09;
+  @include font(22px);
   margin-bottom: 18px;
   color: var(--white-color);
 }
@@ -61,97 +59,110 @@
 }
 
 .contacts__title {
-  font-size: 22px;
-  color: white;
+  @include font(22px);
+  color: var(--white-color);
   margin-bottom: 18px;
 }
 
 .contact__list {
   display: flex;
+  @include font;
   color: var(--white-color);
 }
 
 .contact__link {
-  display: block;
   color: var(--white-color);
-  @include font;
-  fill: white;
-  margin-right: 10px;
+}
 
-  .icon__phone {
-    transition: fill 1250ms linear;
-    &:hover {
-      fill: #52db70;
-      transition: fill 250ms linear;
-    }
-    &:focus {
-      fill: #5dacfa;
-      transition: fill 250ms linear;
-    }
-  }
-
-  .icon__email {
-    transition: fill 1250ms linear;
-    &:hover {
-      fill: #5dacfa;
-      transition: fill 250ms linear;
-    }
-    &:focus {
-      fill: #5dacfa;
-      transition: fill 250ms linear;
-    }
-  }
-
-  .icon__telegram {
-    margin-right: 10px;
-    transition: fill 1250ms linear;
-    &:hover {
-      fill: #5dacfa;
-      transition: fill 250ms linear;
-    }
-    &:focus {
-      fill: #5dacfa;
-      transition: fill 250ms linear;
-    }
-  }
-  .icon__linkedin {
-    margin-right: 10px;
-    transition: fill 1250ms linear;
-    &:hover {
-      fill: #5dacfa;
-      transition: fill 250ms linear;
-    }
-    &:focus {
-      fill: #5dacfa;
-      transition: fill 250ms linear;
-    }
-  }
-
-  .icon__github {
-    margin-right: 10px;
-    transition: fill 1250ms linear;
-    &:hover {
-      fill: #9941a6;
-      transition: fill 250ms linear;
-    }
-    &:focus {
-      fill: #9941a6;
-      transition: fill 250ms linear;
-    }
-  }
-
-  .icon__address {
-    transition: fill 1250ms linear;
-    &:hover {
-      fill: #5dacfa;
-      transition: fill 250ms linear;
-    }
-    &:focus {
-      fill: #5dacfa;
-      transition: fill 250ms linear;
-    }
+.contact__link:hover {
+  transition: color 1250ms linear;
+  &:hover {
+    color: var(--focus-color);
+    transition: color 250ms linear;
   }
 }
+
+// .contact__link {
+//   display: block;
+//   color: var(--white-color);
+//   @include font;
+//   fill: white;
+//   margin-right: 10px;
+
+//   .icon__phone {
+//     transition: fill 1250ms linear;
+//     &:hover {
+//       fill: #52db70;
+//       transition: fill 250ms linear;
+//     }
+//     &:focus {
+//       fill: #5dacfa;
+//       transition: fill 250ms linear;
+//     }
+//   }
+
+//   .icon__email {
+//     transition: fill 1250ms linear;
+//     &:hover {
+//       fill: #5dacfa;
+//       transition: fill 250ms linear;
+//     }
+//     &:focus {
+//       fill: #5dacfa;
+//       transition: fill 250ms linear;
+//     }
+//   }
+
+//   .icon__telegram {
+//     margin-right: 10px;
+//     transition: fill 1250ms linear;
+//     &:hover {
+//       fill: #5dacfa;
+//       transition: fill 250ms linear;
+//     }
+//     &:focus {
+//       fill: #5dacfa;
+//       transition: fill 250ms linear;
+//     }
+//   }
+//   .icon__linkedin {
+//     margin-right: 10px;
+//     transition: fill 1250ms linear;
+//     &:hover {
+//       fill: #5dacfa;
+//       transition: fill 250ms linear;
+//     }
+//     &:focus {
+//       fill: #5dacfa;
+//       transition: fill 250ms linear;
+//     }
+//   }
+
+//   .icon__github {
+//     margin-right: 10px;
+//     transition: fill 1250ms linear;
+//     &:hover {
+//       fill: #9941a6;
+//       transition: fill 250ms linear;
+//     }
+//     &:focus {
+//       fill: #9941a6;
+//       transition: fill 250ms linear;
+//     }
+//   }
+
+//   .icon__address {
+//     transition: fill 1250ms linear;
+//     &:hover {
+//       fill: #5dacfa;
+//       transition: fill 250ms linear;
+//     }
+//     &:focus {
+//       fill: #5dacfa;
+//       transition: fill 250ms linear;
+//     }
+//   }
+// }
 
 .contact-symbol {
   color: var(--white-color);
