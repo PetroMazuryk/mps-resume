@@ -4,21 +4,18 @@
 
 .title-name {
   @include font(47px);
-  // text-shadow: 4px 4px 5px grey, 2px 2px 1px red;
 }
 
 .title-work {
   @include font(24px);
-  // margin-b)ottom: 8px;
 }
 
 .title {
   @include font(22px);
-  // margin-bottom: 8px;
 }
 
 .additional-information {
   max-width: 480px;
   @include font;
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
